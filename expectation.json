@@ -1,5 +1,5 @@
 {
-  "query": "query GetUserInfo($id: ID!) {  \n   user (id:  $id) {  \n id    name   \n    email   \n   address  {    \nstreet  \n city   \n state   zipcode  }\n\n   posts (first: 5)   { \nid   title   content \ncomments { id author { name }   \n}  }\n  }  \n}   ",
+  "query": "query GetUserInfo($id: ID!) {  \n   user (id:  $id) {  \n id    name   \n    email   \n   address  {    \nstreet    \n state   zipcode  }\n\n   posts (first: 5)   { \nid   title   content \ncomments { id author { name }   \n}  }\n  }  \n}   ",
   "variables": {
     "id": "12345"
   }

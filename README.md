@@ -4,3 +4,6 @@ quite a few cases in which it would break. The cases it does not work for and wi
 - when the expected and actual query are the same but ordered differently (this can be easily fixed by ordering all the fields alphabetically)
 - different variable names for expected and actual query which can be fixed by doing a replacement of variable names for one of the queries
 - inline fragments which can be handled by possibly removing the fragment name and replacing it with the fragment somehow -> probably the most annoying case to handle
+
+An example of the output when comparing the `actual.json` and `expectation.json` is below
+![](images/example.png)
